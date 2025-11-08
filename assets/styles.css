@@ -1,0 +1,29 @@
+
+:root{
+  --brand:#7b3cf0;
+  --brand-2:#00bcd4;
+  --bg:#0b0e1a;
+}
+body{ 
+  font-family:'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: #fff; }
+.font-chakra{ font-family:'Chakra Petch', sans-serif; }
+.brand-text{ font-family:'Chakra Petch', sans-serif; font-weight:700; letter-spacing:.5px; }
+.header-blur{ background: rgba(255,255,255,.85); backdrop-filter: blur(8px); }
+.hero-gradient{
+  background: linear-gradient(120deg, var(--brand) 0%, var(--brand-2) 50%, #243b55 100%);
+}
+.text-shadow{ text-shadow: 0 2px 12px rgba(0,0,0,.25); }
+.btn-brand{
+  --bs-btn-padding-x:1.25rem;
+  --bs-btn-padding-y:.65rem;
+  --bs-btn-color:#fff;
+  --bs-btn-bg:var(--brand);
+  --bs-btn-border-color:var(--brand);
+  --bs-btn-hover-bg:#6a2de9;
+  --bs-btn-hover-border-color:#6a2de9;
+  --bs-btn-shadow: 0 8px 24px rgba(123,60,240,.35);
+  box-shadow: var(--bs-btn-shadow);
+}
+.shadow-xl{ box-shadow:0 1rem 3rem rgba(0,0,0,.25)!important; }
+.card-title{ font-weight:600; }
+.border{ border-color:#e9ecef !important; }
